@@ -6,7 +6,7 @@ York City. The primary research questions were: What are the key factors contrib
 In NYC, where are the most dangerous spots? When do most collisions occur? and how can this information be used to
 enhance road safety and reduce the frequency of accidents?
 
-## My approach and methodology
+## Approach and methodology
 Tools: SQL, Python (Pandas), Alteryx, Talend, MySQL, ER Studio, Tableau, Power BI
 1. Data Profiling: The first step involves understanding the characteristics and quality of the available data sources.
 This includes examining the data for completeness, accuracy, consistency, and identifying any potential
