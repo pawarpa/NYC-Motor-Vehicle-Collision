@@ -7,18 +7,33 @@ In NYC, where are the most dangerous spots? When do most collisions occur? and h
 enhance road safety and reduce the frequency of accidents?
 
 ## Approach and methodology
-Tools: SQL, Python (Pandas), Alteryx, Talend, MySQL, ER Studio, Tableau, Power BI
-1. Data Profiling: The first step involves understanding the characteristics and quality of the available data sources.
-This includes examining the data for completeness, accuracy, consistency, and identifying any potential
+<br>
+<p align="center">
+	<img src="NYC-MVC.png" width='100%'><br><br>
+</p>
+
+### Data Profiling: 
+The first step involves understanding the characteristics and quality of the available data sources. This includes examining the data for completeness, accuracy, consistency, and identifying any potential
 quality issues using Alteryx and Python’s Pandas profiling library.
-2. Data Integration and Staging: Three datasets—person, vehicle and crashes—are integrated from diverse sources and
+
+### Data Integration and Staging: 
+Three datasets—person, vehicle and crashes—are integrated from diverse sources and
 staged for analysis. Data integration ensures that relevant information is consolidated for a holistic view of
 vehicle collisions in NYC. Vehicles & Person Dataset was extracted from NYC Open Data & Crashes dataset was
 integrated from GCP Big Query into MySQL staging database.
-3. Dimensional Model: Designed a dimensional data model to organize and structure the data for analysis. This model
-included 17 dimensions and 3 facts. This simplified complex data relationships, making it easier to analyze and
+### Dimensional Model: 
+
+Designed a dimensional data model to organize and structure the data for analysis. This simplified complex data relationships, making it easier to analyze and
 extract insights.
-4. Data Cleaning & Integration: Data cleaning was crucial to ensuring accuracy and reliability; this involved
+
+<br>
+<p align="center">
+	<img src="3_Dimensional model/DimensionalModel.jpg" width='100%'><br><br>
+</p>
+
+### Data Cleaning & Integration: 
+
+Data cleaning was crucial to ensuring accuracy and reliability; this involved
 identifying and addressing missing, duplicate, and inconsistent values.
 a. Null values were replaced with “No Value Provided” in all the dimensions, keeping -99 as SK.
 b. Redundant directions in Travel_Direction were changed to a homogeneous format and Person_Age with
@@ -28,8 +43,6 @@ d. vehicle_type_code, vehicle_make, vehicle_model, and vehicle_year with correct
 number of discrepancies.
 e. Driver_License_Jurisdiction format was maintained with a two-character format and invalid inputs such as
 Special characters, for example “-“, "PA'", etc., were corrected or replaced with “Invalid Input”.
-5. Data Visualization: I used charts, graphs, and maps to represent the findings, understand patterns and
-trends in the dataset.
 
 ## Questions Answered
 - How Many Car Accidents Are There in NYC Every Year?
