@@ -20,7 +20,8 @@ quality issues using Alteryx and Python’s Pandas profiling library.
 Three datasets—person, vehicle and crashes—are integrated from diverse sources and
 staged for analysis. Data integration ensures that relevant information is consolidated for a holistic view of
 vehicle collisions in NYC. Vehicles & Person Dataset was extracted from NYC Open Data & Crashes dataset was
-integrated from GCP Big Query into MySQL staging database.
+integrated from GCP Big Query into staging database.
+
 ### Dimensional Model: 
 
 Designed a dimensional data model to organize and structure the data for analysis. This simplified complex data relationships, making it easier to analyze and
