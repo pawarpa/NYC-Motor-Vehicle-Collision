@@ -35,13 +35,13 @@ extract insights.
 
 Data cleaning was crucial to ensuring accuracy and reliability; this involved
 identifying and addressing missing, duplicate, and inconsistent values.
-a. Null values were replaced with “No Value Provided” in all the dimensions, keeping -99 as SK.
-b. Redundant directions in Travel_Direction were changed to a homogeneous format and Person_Age with
-Negative or large values have been replaced with 0
-c. Vehicle_Year with nulls and values less than 1900 or greater than 2023 with 9999
-d. vehicle_type_code, vehicle_make, vehicle_model, and vehicle_year with corrected data since these have large
+
+1. Null values were replaced with “No Value Provided” in all the dimensions, keeping -99 as SK.
+2. Redundant directions in Travel_Direction were changed to a homogeneous format and Person_Age with Negative or large values have been replaced with 0
+3. Vehicle_Year with nulls and values less than 1900 or greater than 2023 with 9999
+4. vehicle_type_code, vehicle_make, vehicle_model, and vehicle_year with corrected data since these have large
 number of discrepancies.
-e. Driver_License_Jurisdiction format was maintained with a two-character format and invalid inputs such as
+5. Driver_License_Jurisdiction and State_Registration (Vehicle) format was maintained with a two-character format and invalid inputs such as
 Special characters, for example “-“, "PA'", etc., were corrected or replaced with “Invalid Input”.
 
 ## Questions Answered
