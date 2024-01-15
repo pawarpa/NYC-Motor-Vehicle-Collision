@@ -63,6 +63,12 @@ Special characters, for example “-“, "PA'", etc., were corrected or replaced
 2. number of people injured or died
 3. number of people by role, such as pedestrian, injured or died
 4. number of vehicles involved
+
+<br>
+<p align="center">
+	<img src="7_Visualization/Metrics.png" width='100%'><br><br>
+</p>
+
 ### Dimensions: 
 1. Trend (granularity month, year), also seasonality, i.e., Spring, Summer, Fall and Winter
 2. Annual statistics
@@ -70,13 +76,28 @@ Special characters, for example “-“, "PA'", etc., were corrected or replaced
 commute, evening commute, late night, etc.
 4. Vehicle types (for the time period data is available)
 5. Collision causes
-
+   
 ### Collision Analysis: 
 This was done to reveal top causes that led to collisions and fatalities
+
 ### Time Series Analysis: 
 Reveal what time of day, day of week, weekday/weekend have most collisions
+
 ### Fatality Analysis: 
 This revealed that pedestrians were killed more often than other road users whenever collisions occurred
+
+<br>
+<p align="center">
+	<img src="7_Visualization/Collisions by day & Season.png" width='100%'><br><br>
+</p>
+<br>
+<p align="center">
+	<img src="7_Visualization/Monthly & Yearly Collision.png" width='100%'><br><br>
+</p>
+<br>
+<p align="center">
+	<img src="7_Visualization/Dashboard.png" width='100%'><br><br>
+</p>
 
 ## Findings and their significance
 1. Identification of High-Risk Areas: The analysis pinpoints specific areas and intersections with a high frequency of
